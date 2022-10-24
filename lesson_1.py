@@ -24,9 +24,9 @@ for el in bytes_list:
 содержимое и длину соответствующих переменных''' 
 
 
-bytes_4 = b'\x63\x6c\x61\x73\x73'
-bytes_5 = b'\x66\x75\x6e\x63\x74\x69\x6f\x6e'
-bytes_6 = b'\x6d\x65\x74\x68\x6f\x64'
+bytes_4 = b'class'
+bytes_5 = b'function'
+bytes_6 = b'method'
 
 bytes_list_2 = [bytes_4, bytes_5, bytes_6]
 
