@@ -106,6 +106,17 @@ for line in G_PING.stdout:
 Проверить кодировку файла по умолчанию. 
 Принудительно открыть файл в формате Unicode и вывести содержимое."""
 
+import locale
+
+def_coding = locale.getpreferredencoding()
+print(def_coding)
+
+F_N = open('test_file.txt', 'w')
+F_N.write('сетевое программирование сокет декоратор')
+F_N.close()
+print(type(F_N))
+
+
 with open('test_file.txt','r', encoding='utf-8') as lr1:
     for line in lr1:
         print(line, end="")
