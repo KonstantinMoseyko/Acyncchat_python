@@ -1,0 +1,11 @@
+items:
+- table
+- chair
+- door
+- window
+items_quantity: 4
+items_price:
+  table: 120₽
+  chair: 100₽
+  door: 2450₽
+  window: 2089₽
